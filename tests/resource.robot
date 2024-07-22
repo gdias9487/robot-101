@@ -10,8 +10,10 @@ ${loginPageUrl}    https://rahulshettyacademy.com/loginpagePractise
 
 # Login credentials
 ${user_name}    rahulshettyacademy
+${invalid_user_name}    wronguser
 ${invalid_password}    12345678
 ${valid_password}    learning
+${invalid_string}    %^%^&}
 
 ## Constants
 ${blackberry}    Blackberry
