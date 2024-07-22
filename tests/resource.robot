@@ -21,7 +21,7 @@ ${teacher}    teacher
 ${student}    student
 ${consultant}    consultant
 
-# Locators
+# Login Page Locators
 ${errorMessageLocator}    css:.alert.alert-danger
 ${shopButtonLocator}    css:a[href="/angularpractice/shop"]
 ${cardTitlesLocator}    css:.card-title
@@ -31,6 +31,13 @@ ${adminOptionLocator}    css:input[value="admin"]
 ${userTypeSelect}    css:.form-group select
 ${okayButton}    id:okayBtn
 ${termsCheckbox}    id:terms
+${documentRequestsLocator}    css:.blinkingText
+
+# Document Request Page Locators
+${pageTitle}    css:.page-title h1
+${pleaseEmailText}    css:p.red
+${emailLinkLocator}    css:#interview-material-container a
+
 
 *** Keywords ***
 open the browser with the Mortgage payment url
